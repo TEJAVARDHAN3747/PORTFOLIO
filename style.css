@@ -1,0 +1,160 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+}
+
+/* PROFILE CARD */
+.profile-card {
+    background-color: white;
+    padding: 50px 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 650px;
+    text-align: center;
+}
+
+/* BIG NAME */
+.name {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 15px 0 5px 0;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 22px;
+    color: #4a90e2;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.summary {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.9;
+    color: #444;
+}
+
+.summary p {
+    margin-bottom: 18px;
+}
+
+/* HERO SECTION */
+.hero-name {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.hero-subtitle {
+    font-size: 22px;
+    color: #00d4ff;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.hero-description {
+    max-width: 750px;
+    line-height: 1.9;
+    font-size: 17px;
+    color: #d0d0d0;
+}
+
+.hero-description p {
+    margin-bottom: 15px;
+}
+
+/* UPDATED PHOTO SIZE */
+.chip-card img {
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid #00f0ff;
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.6);
+    margin-bottom: 20px;
+}
+
+/* CERTIFICATIONS */
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.cert-card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #00ffcc;
+    transition: 0.3s;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #00ffcc;
+}
+
+/* QUICK ICON LINKS */
+.quick-links {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.quick-icon {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #00f0ff;
+    transition: 0.3s;
+    width: 100px;
+}
+
+.quick-icon i {
+    font-size: 24px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.quick-icon:hover {
+    background: #00f0ff;
+    color: black;
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #00f0ff;
+}
+/* FORCE BIGGER PROFILE CARD */
+.chip-card {
+    width: 400px !important;
+    padding: 40px !important;
+}
+
+/* FORCE BIGGER IMAGE */
+.chip-card img {
+    width: 350px !important;
+    height: 350px !important;
+}
+/* Center everything inside the box */
+.chip-card {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Force image to center */
+.chip-card img {
+    display: block;
+    margin: 0 auto !important;
+}
